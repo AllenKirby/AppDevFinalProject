@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/guessingGame"
+        android:title="Guessing Game"
+        app:showAsAction="never"/>
+    <item android:id="@+id/luMV"
+        android:title="LU Mission Vision"
+        app:showAsAction="never"/>
+</menu>

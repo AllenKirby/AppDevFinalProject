@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guessing_game"
+    android:background="@color/matcha">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guessing Game"
+            android:gravity="center"
+            android:textColor="@color/green"
+            android:textSize="40dp"
+            android:layout_marginTop="70dp"/>
+
+        <EditText
+            android:id="@+id/numberGuess"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:ems="7"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:textColor="@color/green"/>
+
+        <Button
+            android:id="@+id/Guess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:text="Guess"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/Restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Restart"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</FrameLayout>
