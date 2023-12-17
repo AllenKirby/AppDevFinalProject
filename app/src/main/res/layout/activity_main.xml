@@ -15,7 +15,8 @@
         android:background="@color/green"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:titleTextColor="@color/white"/>
+        app:titleTextColor="@color/white"
+        app:title="Guessing Game"/>
 
     <FrameLayout
         android:id="@+id/fragmentContainer"

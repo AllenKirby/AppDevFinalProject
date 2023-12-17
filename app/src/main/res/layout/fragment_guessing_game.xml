@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".guessing_game"
-    android:background="@color/matcha">
-
+    android:background="@drawable/green">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,7 +32,8 @@
             android:ems="7"
             android:inputType="number"
             android:textSize="20dp"
-            android:textColor="@color/green"/>
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"/>
 
         <Button
             android:id="@+id/Guess"
@@ -43,7 +43,9 @@
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
             android:text="Guess"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:backgroundTint="@color/green"/>
+
         <Button
             android:id="@+id/Restart"
             android:layout_width="wrap_content"
@@ -53,6 +55,7 @@
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
             android:textSize="20dp"
-            android:layout_marginTop="15dp"/>
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/green"/>
     </LinearLayout>
 </FrameLayout>

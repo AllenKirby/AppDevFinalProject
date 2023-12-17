@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MissionVision"
-    android:background="@color/matcha">
+    android:background="@drawable/green">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:text="Name: Allen Kirby V. Santileces"
             android:textSize="25dp"
             android:fontFamily="sans-serif-black"
-            android:textColor="@color/green"/>
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:text="Block: BSCS-DS 3A"
             android:textSize="25dp"
             android:fontFamily="sans-serif-black"
-            android:textColor="@color/green"/>
+            android:textColor="@color/black"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,6 +40,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="300dp"
+                android:clickable="true"
+                android:src="@android:drawable/ic_input_add" />
         </LinearLayout>
 
     </LinearLayout>

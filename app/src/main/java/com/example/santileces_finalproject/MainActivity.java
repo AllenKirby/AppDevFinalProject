@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.widget.Toolbar;
 
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         num1 += 2;
         num2 += 2;
         Log.d("onCreate", "num1 = " + num1 + "and num2 = " + num2);
+        Toast.makeText(this, "num1 = " + num1 + "and num2 = " + num2, Toast.LENGTH_SHORT).show();
 
         Toolbar tlb = findViewById(R.id.toolbar);
         setSupportActionBar(tlb);
@@ -66,5 +69,6 @@ public class MainActivity extends AppCompatActivity {
         num2 += 2;
 
         Log.d("onPause", "num1 = " + num1 + "and num2 = " + num2);
+        Toast.makeText(this, "num1 = " + num1 + "and num2 = " + num2, Toast.LENGTH_SHORT).show();
     }
 }

@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class MissionVision extends Fragment {
     private RecyclerView recyclerView;
     private LUMVAdapter MVAdapter;
